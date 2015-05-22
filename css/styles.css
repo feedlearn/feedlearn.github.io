@@ -237,6 +237,13 @@ padding: 15px 24px;
   max-height: 360px;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-right {
+    float: right!important;
+    margin-right: 0px;
+  }
+}
+
 .padding-left-10 {
  	padding-left: 10px;
  }
@@ -276,6 +283,12 @@ padding: 15px 24px;
   }
 }
 
+.dark-bg { background:rgba(0,0,0,0.6); }
+
+@media screen and (max-width: 768px) {
+  .dark-bg { background-color: lightgreen}
+}
+
 .vertical-center {
   height:100%;
   width:100%;
@@ -300,7 +313,7 @@ padding: 15px 24px;
   font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.dark-bg { background:rgba(0,0,0,0.6); }
+
 
 #rooftop-image{
   position:fixed;
